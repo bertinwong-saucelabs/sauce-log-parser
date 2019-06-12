@@ -68,7 +68,8 @@ class Job(object):
         duration = self.read_data("duration")
         between_commands = self.read_data("between_commands")
 
-        print("test id: {}".format(self.job_id))
+        print("---")
+        print("test_id: {}".format(self.job_id))
         print("duration:")
         Job.print_results(duration)
         print("between_commands:")
