@@ -16,7 +16,7 @@ pip install requirements
 
 ## Usage
 
-To analyze existing seleniumn log:
+To analyze a pre-downloaded seleniumn log:
 ```
 python sel_log_parser.py --user $SAUCE_USERNAME --access_key $SAUCE_ACCESS_KEY e7309a5c47ad412baa65f9d3454d8b0b
 ```
